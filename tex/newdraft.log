@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 MAR 2018 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAR 2018 16:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -588,10 +588,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 <jk_plot.pdf, id=110, 433.62pt x 289.08pt>
 File: jk_plot.pdf Graphic file (type pdf)
  <use jk_plot.pdf>
-Package pdftex.def Info: jk_plot.pdf used on input line 134.
+Package pdftex.def Info: jk_plot.pdf used on input line 138.
 (pdftex.def)             Requested size: 256.085pt x 170.71451pt.
 
-Overfull \hbox (10.81848pt too wide) in paragraph at lines 134--135
+Overfull \hbox (10.81848pt too wide) in paragraph at lines 138--139
  [][] 
  []
 
@@ -603,10 +603,10 @@ n: multiple pdfs with page group included in a single page
 No file newdraft.bbl.
 [5] (./newdraft.aux) ) 
 Here is how much of TeX's memory you used:
- 5331 strings out of 493014
- 70543 string characters out of 6133351
+ 5332 strings out of 493014
+ 70551 string characters out of 6133351
  157971 words of memory out of 5000000
- 8762 multiletter control sequences out of 15000+600000
+ 8763 multiletter control sequences out of 15000+600000
  13484 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,9n,29p,1148b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -639,7 +639,7 @@ texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/public/hfbright/hfbrsy10.pfb>
-Output written on newdraft.pdf (5 pages, 611413 bytes).
+Output written on newdraft.pdf (5 pages, 611187 bytes).
 PDF statistics:
  216 PDF objects out of 1000 (max. 8388607)
  157 compressed objects within 2 object streams
