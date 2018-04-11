@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAR 2018 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 APR 2018 14:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -410,17 +410,17 @@ e
 ))
 \openout3 = `newdraftNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+lasy on input line 22.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 26.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 22.
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 22.
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -429,220 +429,204 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 28--29
-\OT1/cmr/m/n/10 and star-forming galax-ies ``tran-si-tion" to red and
+Package natbib Warning: Citation `hubble36a' on page 1 undefined on input line 
+56.
+
+
+Package natbib Warning: Citation `dressler80a' on page 1 undefined on input lin
+e 56.
+
+
+Package natbib Warning: Citation `kennicutt12a' on page 1 undefined on input li
+ne 59.
+
+
+Package natbib Warning: Citation `Burg13' on page 1 undefined on input line 77.
+
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 72--85
+\OT1/cmr/m/n/10 ergy is re-emitted in the mid- to far-IR by poly-
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 28--29
-\OT1/cmr/m/n/10 the en-vi-ron-ment $[]$ and typ-i-cally
+Underfull \hbox (badness 2573) in paragraph at lines 72--85
+\OT1/cmr/m/n/10 for dust attenuation$[]$,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 32--33
-[]\OT1/cmr/m/n/10 The ef-fect of dust in di-min-ish-ing UV lu-mi-nos-ity
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 32--33
-\OT1/cmr/m/n/10 uni-verse, al-most $70%$ of the FUV lu-mi-nos-ity is
- []
-
-
-Underfull \hbox (badness 3930) in paragraph at lines 32--33
-\OT1/cmr/m/n/10 a-nisms have been pro-posed to ac-count for dust
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-\OT1/cmr/m/n/10 attenuation$[]$, the
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 32--33
-\OT1/cmr/m/n/10 re-liance on UV SFR's ex-ten-sively in the lit-er-a-ture
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-<panel_plot.pdf, id=1, 559.69208pt x 619.69989pt>
+<panel_plot.pdf, id=1, 559.09346pt x 618.97772pt>
 File: panel_plot.pdf Graphic file (type pdf)
  <use panel_plot.pdf>
-Package pdftex.def Info: panel_plot.pdf used on input line 38.
-(pdftex.def)             Requested size: 455.24402pt x 455.25174pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
+Package pdftex.def Info: panel_plot.pdf used on input line 107.
+(pdftex.def)             Requested size: 455.26047pt x 455.24068pt.
+ [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 1675) in paragraph at lines 137--145
+\OT1/cmr/m/n/10 (Wide-Field In-frared Sur-vey Ex-plorer) data \OT1/cmr/bx/n/10 
+which
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 54--56
-\OT1/cmr/m/n/10 ron-ment de-ter-min-ing pop-u-la-tion of $95638$ galax-ies.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 137--145
 
  []
 
 [2 <./panel_plot.pdf>]
-Underfull \hbox (badness 1275) in paragraph at lines 65--66
-\OT1/cmr/m/n/10 the amount of in-frared emis-sion that is ac-counted
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 147--155
 
  []
 
-<env_plot.pdf, id=75, 433.62pt x 289.08pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--171
+
+ []
+
+
+Package natbib Warning: Citation `daC08' on page 3 undefined on input line 173.
+
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 172--188
+\OT1/cmr/m/n/10 op-ti-cal, and near-infrared wave-lengths. For ev-ery
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--188
+
+ []
+
+<env_plot.pdf, id=60, 433.62pt x 289.08pt>
 File: env_plot.pdf Graphic file (type pdf)
  <use env_plot.pdf>
-Package pdftex.def Info: env_plot.pdf used on input line 69.
+Package pdftex.def Info: env_plot.pdf used on input line 191.
 (pdftex.def)             Requested size: 256.085pt x 170.71451pt.
 
-Overfull \hbox (10.81848pt too wide) in paragraph at lines 69--70
+Overfull \hbox (10.81848pt too wide) in paragraph at lines 191--192
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 195--201
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 218--224
 
  []
 
-<outliers.pdf, id=76, 722.7pt x 289.08pt>
-File: outliers.pdf Graphic file (type pdf)
- <use outliers.pdf>
-Package pdftex.def Info: outliers.pdf used on input line 83.
+<Outliers.pdf, id=61, 722.7pt x 289.08pt>
+File: Outliers.pdf Graphic file (type pdf)
+ <use Outliers.pdf>
+Package pdftex.def Info: Outliers.pdf used on input line 227.
 (pdftex.def)             Requested size: 455.24826pt x 182.0949pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+[3 <./env_plot.pdf>]
+Underfull \hbox (badness 1694) in paragraph at lines 269--270
+\OT1/cmr/m/n/10 or-der to con-firm whether MAG-PHYS is cap-tur-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 107--108
-\OT1/cmr/m/n/10 mono-tonic re-la-tion-ship with op-ti-cal color while the
- []
+Package natbib Warning: Citation `Coop06' on page 4 undefined on input line 276
+.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 116.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 282.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+[4 <./Outliers.pdf>] <jk_plot.pdf, id=113, 433.62pt x 289.08pt>
+File: jk_plot.pdf Graphic file (type pdf)
+
+<use jk_plot.pdf>
+Package pdftex.def Info: jk_plot.pdf used on input line 297.
+(pdftex.def)             Requested size: 256.085pt x 170.71451pt.
+
+Overfull \hbox (10.81848pt too wide) in paragraph at lines 297--298
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 313.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
- [3 <./env_plot.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 313.
+ (./newdraft.bbl
+Missing character: There is no Ã in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+)
 
- []
+Package natbib Warning: There were undefined citations.
 
-<jk_plot.pdf, id=110, 433.62pt x 289.08pt>
-File: jk_plot.pdf Graphic file (type pdf)
- <use jk_plot.pdf>
-Package pdftex.def Info: jk_plot.pdf used on input line 138.
-(pdftex.def)             Requested size: 256.085pt x 170.71451pt.
-
-Overfull \hbox (10.81848pt too wide) in paragraph at lines 138--139
- [][] 
- []
-
-[4 <./outliers.pdf> <./jk_plot.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./jk_plot.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
->]
-No file newdraft.bbl.
-[5] (./newdraft.aux) ) 
+[5 <./jk_plot.pdf>] (./newdraft.aux) ) 
 Here is how much of TeX's memory you used:
- 5332 strings out of 493014
- 70551 string characters out of 6133351
- 157971 words of memory out of 5000000
- 8763 multiletter control sequences out of 15000+600000
- 13484 words of font info for 55 fonts, out of 8000000 for 9000
+ 5355 strings out of 493014
+ 71207 string characters out of 6133351
+ 169049 words of memory out of 5000000
+ 8779 multiletter control sequences out of 15000+600000
+ 13999 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,29p,1148b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/hfbright/hfbrsy10.pfb>
-Output written on newdraft.pdf (5 pages, 611187 bytes).
+ 39i,9n,29p,930b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts
+/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/hfbright/hfbr9.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/hfbright/hfbrmi9.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/hfbright/hfbrsy10.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on newdraft.pdf (5 pages, 492750 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
+ 201 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

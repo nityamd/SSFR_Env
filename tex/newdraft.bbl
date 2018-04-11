@@ -1,0 +1,48 @@
+\begin{thebibliography}{}
+\providecommand\natexlab[1]{#1}
+\providecommand\JournalTitle[1]{#1}
+
+\bibitem[{da~Cunha {et~al.}(2008)da~Cunha, Charlot, \&
+  Elbaz}]{da_cunha_simple_2008}
+da~Cunha, E., Charlot, S., \& Elbaz, D. 2008,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2008.13535.x}{\JournalTitle{Monthly
+  Notices of the Royal Astronomical Society}, 388, 1595}
+
+\bibitem[{Ilbert {et~al.}(2013)Ilbert, McCracken, Le~Fèvre, Capak, Dunlop,
+  Karim, Renzini, Caputi, Boissier, Arnouts, Aussel, Comparat, Guo, Hudelot,
+  Kartaltepe, Kneib, Krogager, Le~Floc’h, Lilly, Mellier, Milvang-Jensen,
+  Moutard, Onodera, Richard, Salvato, Sanders, Scoville, Silverman, Taniguchi,
+  Tasca, Thomas, Toft, Tresse, Vergani, Wolk, \& Zirm}]{ilbert_mass_2013}
+Ilbert, O., McCracken, H.~J., Le~Fèvre, O., {et~al.} 2013,
+  \href{http://dx.doi.org/10.1051/0004-6361/201321100}{\JournalTitle{Astronomy
+  \& Astrophysics}, 556, A55}
+
+\bibitem[{Moustakas {et~al.}(2013)Moustakas, Coil, Aird, Blanton, Cool,
+  Eisenstein, Mendez, Wong, Zhu, \& Arnouts}]{moustakas_primus:_2013}
+Moustakas, J., Coil, A.~L., Aird, J., {et~al.} 2013,
+  \href{http://dx.doi.org/10.1088/0004-637X/767/1/50}{\JournalTitle{The
+  Astrophysical Journal}, 767, 50}
+
+\bibitem[{Muzzin {et~al.}(2013)Muzzin, Marchesini, Stefanon, Franx, McCracken,
+  Milvang-Jensen, Dunlop, Fynbo, Brammer, Labbé, \& van
+  Dokkum}]{muzzin_evolution_2013}
+Muzzin, A., Marchesini, D., Stefanon, M., {et~al.} 2013,
+  \href{http://dx.doi.org/10.1088/0004-637X/777/1/18}{\JournalTitle{The
+  Astrophysical Journal}, 777, 18}
+
+\bibitem[{Salim {et~al.}(2007)Salim, Rich, Charlot, Brinchmann, Johnson,
+  Schiminovich, Seibert, Mallery, Heckman, Forster, \&
+  {others}}]{salim_uv_2007}
+Salim, S., Rich, R.~M., Charlot, S., {et~al.} 2007,
+  \href{http://iopscience.iop.org/0067-0049/173/2/267}{\JournalTitle{The
+  Astrophysical Journal Supplement Series}, 173, 267}
+
+\bibitem[{Tomczak {et~al.}(2014)Tomczak, Quadri, Tran, Labbé, Straatman,
+  Papovich, Glazebrook, Allen, Brammer, Kacprzak, Kawinwanichakij, Kelson,
+  McCarthy, Mehrtens, Monson, Persson, Spitler, Tilvi, \& van
+  Dokkum}]{tomczak_galaxy_2014}
+Tomczak, A.~R., Quadri, R.~F., Tran, K.-V.~H., {et~al.} 2014,
+  \href{http://dx.doi.org/10.1088/0004-637X/783/2/85}{\JournalTitle{The
+  Astrophysical Journal}, 783, 85}
+
+\end{thebibliography}

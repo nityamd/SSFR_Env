@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: newdraft.aux
+The style file: yahapj.bst
+Database file #1: newdraftNotes.bib
+Database file #2: ref.bib
+Warning--I didn't find a database entry for "hubble36a"
+Warning--I didn't find a database entry for "dressler80a"
+Warning--I didn't find a database entry for "kennicutt12a"
+Warning--I didn't find a database entry for "Burg13"
+Warning--I didn't find a database entry for "daC08"
+Warning--I didn't find a database entry for "Coop06"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 6 entries,
+            3215 wiz_defined-function locations,
+            714 strings with 7842 characters,
+and the built_in function-call counts, 3874 in all, are:
+= -- 250
+> -- 376
+< -- 0
++ -- 134
+- -- 133
+* -- 401
+:= -- 733
+add.period$ -- 6
+call.type$ -- 6
+change.case$ -- 32
+chr.to.int$ -- 6
+cite$ -- 6
+duplicate$ -- 164
+empty$ -- 210
+format.name$ -- 139
+if$ -- 747
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 6
+newline$ -- 23
+num.names$ -- 24
+pop$ -- 57
+preamble$ -- 1
+purify$ -- 32
+quote$ -- 0
+skip$ -- 94
+stack$ -- 0
+substring$ -- 144
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 54
+warning$ -- 0
+while$ -- 25
+width$ -- 0
+write$ -- 64
+(There were 6 warnings)
