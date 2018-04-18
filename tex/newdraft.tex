@@ -194,8 +194,8 @@ for the distributions.\\
 
 The results for the SSFRs thus obtained for each template are shown 
 in the lower left panel of Figure $1$ along with the number 
-distribution of the galaxies 
-across the chosen bins. Note that bins with $< 5$ galaxies 
+distribution of the galaxies across the chosen bins. Note that 
+bins with $< 5$ galaxies 
 were omitted as those regions of the color-color space are 
 obviously under-sampled. \\
 
@@ -266,31 +266,94 @@ that question in 3 bins of absolute magnitude too}
 
 \section{Environments}
 
-We identified above a population of galaxies for wIn order to confirm whether MAGPHYS is capturing something inherent to this population of galaxies, we estimate an independent physical property, namely the environments of our sample.\\
-
-color space looks as we would expect it to for the most part - the bluer part of the space is filled with star-forming galaxies and the redder part of the space seems to contain a quiescent population. 
-
+We identified above a population of galaxies isolated in color space,
+which appeared to have dust-extincted star formation, such that the UV SSFR estimate
+was much less than the MAGPHYS SSFR.
+In order to confirm whether MAGPHYS is capturing an inherent  property of
+in this population of galaxies, we examine an independent physical property, 
+namely the environments of our sample.\\
 
 \subsection{Measures of Environment}
 
-The Environment of a galaxy can be defined in many ways such as the fixed aperture counts, distance to the $n^{th}$ nearest neighbor, Voronoi volumes, etc \cite[]{Coop06}. We use counts in a projected fixed aperture of length $0.5$ Mpc as our environment measure here. Around every galaxy we construct a projected cylinder with a radius (in the transverse direction) of $r_{t} = 0.5$ Mpc and a line of sight velocity window of $v_{los} = \pm 1000 km/s$ and count the number of neighbors($n_{env}$) in this cylinder(Fig. $1,2$).
-
-The environment trends are plotted in Fig $1.$(b) as a function of optical and infrared colors. We find that the expected trend holds good, i.e., the star-forming bluer galaxies tend to exist in sparser environments on an average and that the red-and-dead population tends to exist in richer regions. The interesting feature we see occurs in the so-called green-valley region($3 <N-r < 5$). We find that the average environments of such galaxies with higher $[W1]-[W3]$ values have similar environments to the blue cloud.\\
+The environment of a galaxy can be defined in many ways, such as 
+fixed aperture counts, distance to the $n^{th}$ nearest neighbor, 
+Voronoi volumes, etc \cite[]{Coop06}. Here we use counts in a 
+projected fixed aperture of radius $0.5$ Mpc as our environment
+measure. Around every galaxy we construct a projected cylinder
+with a radius (in the transverse direction) of $r_{t} = 0.5$ 
+Mpc and a line of sight velocity window of 
+$v_{los} = \pm 1000 km/s$. We count the number of 
+neighbors ($n_{\rm env}$) in this cylinder(Fig. $1,2$) from the Environment 
+Defining Population.
 
 \subsection{Edge Effects}
 
-One of the challenges involved in finding environments in galaxy surveys is accounting for the survey edges in a meaningful way. For galaxies at the edge, part of the fixed aperture used to estimate the environments might lie outside the survey coverage and thus it is important to identify them and either discard them or assign an appropriate weight to them. To identify the edges, we use (Molly Swanson et. al.'s) \texttt{Mangle}, a suite of free open-source software designed to deal with complex angular masks in an efficient and accurate manner. First, the NYU-VAGC mask was used to obtain the angular mask for the NASA Sloan Atlas by using the \emph{polyid} routine from \texttt{Mangle}. Then, the \emph{ransack} routine was used to populate the mask with a random sample of $N = 10,000,000$ galaxies.
+We must also account for the survey edges. For galaxies at the edge, 
+part of the fixed aperture used to estimate the environments might 
+lie outside the survey coverage. It is important to identify these
+galaxies and either discard them or assign an appropriate weight to 
+$n_{\rm env}$ in order to account for the missing area. 
 
-For each galaxy, we compute the angular separation $\theta_{i}$ that corresponds to our $0.5 Mpc$ aperture at the redshift of that galaxy. We then count the number of galaxies $n_{i}$ that lie within this angular separation and compare the value obtained to the expected value (Hahn et. al.):
-$$\big \langle n \big \rangle _{i} = \frac{N}{A_{\mathrm{EDP}}} \times \pi \theta_{i}^{2} \times f_{\mathrm{thresh}} $$
+\textbf{I think the following couple of paragraphs could be shortened}
 
+To identify the edges, we use (Swanson et. al.'s \textbf{find citation}) 
+\texttt{Mangle}, a suite of free open-source software designed 
+to deal with complex angular masks in an efficient and accurate 
+manner. First, the NYU-VAGC mask was used to obtain the angular 
+mask for the NASA Sloan Atlas by using the \emph{polyid} 
+routine from \texttt{Mangle}. Then, the \emph{ransack} 
+routine was used to populate the mask with a random sample of 
+$N = 10,000,000$ galaxies.
 
-$A_{\mathrm{EDP}}$ is the total area of the mask and $f_{\mathrm{thresh}}$ is the fractional threshold for the edge effect cut-off. In our case, $f_{\mathrm{thresh}} = 0.8$ seemed to be a reasonable cut-off to impose. Wherever $n_{i} < \big \langle n \big \rangle _{i} $, we consider the galaxy to be near an edge and discard it from our sample. ($\%$ removed from our sample?)
+For each galaxy, we compute the angular separation 
+$\theta_{i}$ that corresponds to our $0.5 Mpc$ aperture at 
+the redshift of that galaxy. We then count the number of 
+galaxies $n_{i}$ that lie within this angular separation 
+and compare the value obtained to the expected value 
+(Hahn et. al.): $$\big \langle n \big \rangle _{i} = 
+\frac{N}{A_{\mathrm{EDP}}} \times \pi \theta_{i}^{2} 
+\times f_{\mathrm{thresh}} $$
 
+$A_{\mathrm{EDP}}$ is the total area of the mask and 
+$f_{\mathrm{thresh}}$ is the fractional threshold for the 
+edge effect cut-off. In our case, we chose $f_{\mathrm{thresh}} = 0.8$. 
+Wherever $n_{i} < \big \langle n \big \rangle _{i} $, 
+we consider the galaxy to be near an edge and discard it 
+from our sample. ($\%$ removed from our sample?)
+
+\subsection{Environments in Color-Color Space}
+
+The mean environment, quantified by $(\langle n_{\rm env}\rangle + 1)$
+in each bin are shown in the upper right panel of Fig. $1$ as a function 
+of optical and infrared colors. As we expect from many previous studies, 
+i.e., the star-forming bluer galaxies tend to exist in less dense 
+environments on an average and the red-and-dead population tends 
+to exist in more dense environments. In the UV-optical green valley region
+($3 < N-r < 5$) there is some indication that the environment declines 
+with $[W1]-[W3]$ color at fixed UV-optical color. However, the 
+mean environments in this plot cannot easily be interpreted, because
+the mean stellar mass in each bin is different, so some of the variation
+is driven by the dependence of environment on stellar mass.
 
 \section{The Environments of the Outliers}
 
-In order to understand the relationship between the two SSFR measurements as a function of environment, Fig. $2$ was produced, keeping the same binning along the $([W1]-[W3])$ and $(N-r)$ axes (as shown in Fig. $2$). It is apparent from Fig. $2$ that there is a population of galaxies that exists in a $ -10.5 < \mathrm{MAGPHYS} \mathrm{SSFR} < -9.5$ that not only have lower UV SSFR's but seem to exist in environments similar to the other galaxy bins in the same MAGPHYS range. From hereon we shall refer to this population as the ``Outliers", to distinguish them from the \emph{linear trend..?} in Fig. $2$ and we proceed to identify these more concretely in Fig. $3(a)$. The galaxy bins with the same MAGPHYS SSFR's are identified as ``MAGPHYS Box" and the bins with the same UV SSFR's are identified as ``UV BOX" in Fig. $3(a)$. \\
+Fig. 2 shows the relationship between the two SSFR 
+measurements as a function of environment
+for each bin in color-color space from Fig. 1. The color
+indicates the environments. 
+There is a set of bins in the range 
+$ -10.5 < \mathrm{MAGPHYS} \mathrm{SSFR} < -9.5$ that 
+have lower UV SSFRs than the general trend line, and 
+have environments similar to the other galaxy bins 
+in the same MAGPHYS range. Hereafter we shall refer 
+to this population as the ``Outliers", to distinguish 
+them from the general trend line in Fig. $2$. 
+
+We proceed to identify these more concretely in 
+Fig. $3(a)$. The galaxy bins with the same MAGPHYS 
+SSFR's are identified as the ``MAGPHYS Box" and 
+the bins with the same UV SSFR's are identified as 
+``UV BOX" in Fig. $3(a)$. \\
 
 \begin{figure}
 	\centering
@@ -298,13 +361,44 @@ In order to understand the relationship between the two SSFR measurements as a f
 	\caption{Probability density functions of the Environments of the three populations described in Fig. $2$; } 
 \end{figure}
 
-Upon identifying the same in the color-color space (Fig. $3(b)$), we see the trends we had expected, namely that the Outliers would lie in the same optical color range as the UV box but have higher IR color; that the MAGPHYS Box occupies the bluer side in the optical color range while spanning almost the entire IR color range; and that the UV Box occupies the redder side in the optical color range while having lower IR color values. This confirms our conjecture  that these outliers might indeed be the dust-reddened ``green valley" we originally set out to look for. To verify this, we unwrap the bins and look at the Probability Density Function of the Environments of the galaxies in these three regions in the mass range  $ 9.5 < M_{*} < 10.7$ and the result of that is plotted in Fig. $4$.
+When we return to the color-color space (Fig. $3(b)$) and show
+where the bins in each box lie,  we see the trends we would expect. 
+The Outliers  lie in a similar UV-optical color range as the UV box 
+but have higher IR color. The MAGPHYS Box occupies the bluer side 
+in the optical color range while spanning almost the entire IR color range. 
+The UV Box occupies the redder side in the optical color range while 
+having lower IR color values. The Outlier bins are the 
+same bins we previously identified as the galaxies in 
+the UV-optical ``green valley" that are there due to dust reddening. 
+
+\textbf{the paragraph below deserves a lot more detail and its own section}
+
+To verify this, we unwrap the bins and look at the Probability 
+Density Function of the Environments of the galaxies in these three regions in the mass range  $ 9.5 < M_{*} < 10.7$ and the result of that is plotted in Fig. $4$.
 
 \subsection{Jackknife Errors}
 
-To calculate uncertainty in the estimated probability density functions of the environments, $P_{i,\mathrm{bin}}$'s : $i = 1,2,3$ for each of the populations, we use the standard jackknife technique. Jackknife re-sampling gives us an internal error estimate that tests how representative a measurement/trend is of the data it is estimated with. We divide our entire sample into $20$ subsamples with nearly equal co-moving volumes and estimate the same probability density functions($P^{j}_{i}$'s) for the whole sample while leaving out one subsample each time. We can then estimate our uncertainty for each bin in the PDF's thus:
+To calculate uncertainty in the estimated probability density 
+functions of the environments, $P_{i,\mathrm{bin}}$'s : 
+$i = 1,2,3$ for each of the populations, we use the standard 
+jackknife technique. Jackknife re-sampling gives us an internal 
+error estimate that tests how representative a measurement/trend 
+is of the data it is estimated with. We divide our entire 
+sample into $20$ subsamples with nearly equal co-moving 
+volumes and estimate the same probability density 
+functions($P^{j}_{i}$'s) for the whole sample while leaving 
+out one subsample each time. We can then estimate our uncertainty 
+for each bin in the PDF's thus:
 $$ \sigma_{i, \mathrm{bin}} = \sqrt{\sum_{j = 1}^{j = 20} (P^{j}_{i} - P_{i,bin})^{2}} $$
-The jackknife errors are shown in Fig. $4$ and confirm our hypothesis: that the Outliers are a little different than the MAGPHYS Box but still, very different from the UV Box.
+The errors estimated in this manner account for Poisson shot
+noise and also the sample variance, the extra error associated
+with the fact that the density field varies across the survey. 
+Although precision studies of large scale structure have found
+that latter effect is not perfectly accounted for with standard
+jackknife techniques, they are precise enough for our purposes
+here. The jackknife errors are shown in Fig. $4$ and confirm our 
+hypothesis: that the Outliers are a little different than the 
+MAGPHYS Box but still, very different from the UV Box.
 
 \section{Summary and Conclusion}
 
