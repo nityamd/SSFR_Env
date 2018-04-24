@@ -389,7 +389,7 @@ volumes and estimate the same probability density
 functions($P^{j}_{i}$'s) for the whole sample while leaving 
 out one subsample each time. We can then estimate our uncertainty 
 for each bin in the PDF's thus:
-$$ \sigma_{i, \mathrm{bin}} = \sqrt{\sum_{j = 1}^{j = 20} (P^{j}_{i} - P_{i,bin})^{2}} $$
+$$ \sigma_{i, \mathrm{bin}} = \sqrt{\frac{N}{N-1} \sum_{j = 1}^{j = N} (P^{j}_{i} - P_{i,bin})^{2}} $$
 The errors estimated in this manner account for Poisson shot
 noise and also the sample variance, the extra error associated
 with the fact that the density field varies across the survey. 
