@@ -137,21 +137,11 @@ formation rates (Star Formation Rate Population or SFRP hereafter). We note that
 The star formation rate determinations we use here
 require both UV data and IR data. About 80\% of our 
 galaxies have UV data from GALEX analyzed in the NSA.
-To obtain infrared imaging for the data we have 
-matched the objects from the NSA with the WISE (Wide-Field Infrared 
-Survey Explorer) data \textbf{which catalog specifically? ALLWISE DR $2013$?}
-with $K$-corrected WISE magnitudes. 
-Now about $20\%$ of the objects in the NSA do not have GALEX Photometry, which is crucial for us to determine our SFR's, especially the UVSFR's. Apart from that, less than $1\%$ of the objects do not have reasonable optical/WISE fluxes. We removed all such objects with missing/faulty photometry in addition to correcting for edges in sample \textbf{(refer section Edge Effects)}. Since we intend to study the evolution of these galaxies through the optical-IR phase space, we imposed a cut in optical ($7.5> N-r >=0 $) and infrared ($3.0> [W1]- [W3] >= -3.0$) colors (top left corner of Fig. $1$). Our SFRP ultimately consists of $61,046$ objects with absolute magnitudes in the UV ($F$ and $N$ bands), optical ($U$,$g$,$r$,$i$ and $z$ bands) and infrared ($W1$,$W2$, $W3$ and $W4$ bands). \textbf{How was K-correction done for WISE?} \\
+To obtain infrared imaging for the data we use the Wide-Field Infrared Survey Explorer (WISE) data and 
+matched the objects from the NSA with the ALLWISE Source Catalogue to get the four-band 
+infrared fluxes for each galaxy.
+Now about $20\%$ of the objects in the NSA do not have GALEX Photometry, which is crucial for us to determine our SFR's, especially the UVSFR's. Apart from that, less than $1\%$ of the objects do not have reasonable optical/WISE fluxes. We removed all such objects with missing/faulty photometry in addition to correcting for edges in the sample (Section \ref{edge}).Since we intend to study the evolution of these galaxies through the optical-IR phase space, we imposed a cut in optical ($7.5> N-r >=0 $) and infrared ($3.0> [W1]- [W3] >= -3.0$) colors (top left corner of Fig. $1$). Our SFRP ultimately consists of $61,046$ objects with absolute magnitudes in the UV ($F$ and $N$ bands), optical ($U$,$g$,$r$,$i$ and $z$ bands) and infrared ($W1$,$W2$, $W3$ and $W4$ bands). \textbf{How was K-correction done for WISE?} \\
 
- 
-The environment tracing sample needs to be volume-limited; that is,
-to have an expected mean density independent of redshift. To
-achieve this, we restrict in absolute magnitude to
-$-18.5 > M_{r}  > -24.5$. This yields a
-population of $95,638$ galaxies. 
-zero/negative fluxes,  to obtain $75476$
-galaxies upon which the star formation rate measurements were 
-then performed. \textbf{is this last sentence still right?}\\
 
 \section{Estimating the Specific Star Formation Rates}
 
@@ -286,7 +276,7 @@ $v_{los} = \pm 1000 km/s$. We count the number of
 neighbors ($n_{\rm env}$) in this cylinder(Fig. $1,2$) from the Environment 
 Defining Population.
 
-\subsection{Edge Effects}
+\subsection{Edge Effects}\label{edge}
 
 We must also account for the survey edges. For galaxies at the edge, 
 part of the fixed aperture used to estimate the environments might 

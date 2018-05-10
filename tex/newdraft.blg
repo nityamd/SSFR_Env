@@ -13,7 +13,7 @@ Warning--I didn't find a database entry for "Coop06"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 6 entries,
             3215 wiz_defined-function locations,
-            714 strings with 7842 characters,
+            714 strings with 7858 characters,
 and the built_in function-call counts, 3874 in all, are:
 = -- 250
 > -- 376
